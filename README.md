@@ -1,3 +1,5 @@
+# Machine Learning with H2O on Hortonworks Platform
+
 ### Introduction
 
 H2O is the open source in memory solution from H2O.ai for doing predictive analytics on big data. It is a math and machine learning engine that brings distributed and parallelized computation to powerful algorithms that enable you to iterate through many models faster and make better predictions.
