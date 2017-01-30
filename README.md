@@ -2,7 +2,12 @@
 
 H2O is the open source in memory solution from H2O.ai for doing predictive analytics on big data. It is a math and machine learning engine that brings distributed and parallelized computation to powerful algorithms that enable you to iterate through many models faster and make better predictions.
 
-With a uniform REST API, the R and Python client interfaces allow the user to write familiar code in traditional open source data science tools while using H2O in the back end. You can import data from S3, HDFS, local disk, or even databases using [Sparkling Water](http://h2o-release.s3.amazonaws.com/sparkling-water/rel-1.5/3/index.html).  H2O brings the ability to do advanced analytics to a broader audience of users. With an almost nonexistent learning curve for current Hadoop users, the following tutorial serves as a way to streamline the initial setup of H2O on Hortonwork's Sandbox.
+With a uniform REST API, the R and Python client interfaces allow the user to write familiar code in traditional open source data science tools while using H2O in the back end. You can import data from S3, HDFS, local disk, or even databases using [Sparkling Water](http://h2o-release.s3.amazonaws.com/sparkling-water/rel-2.0/3/index.html).  H2O brings the ability to do advanced analytics to a broader audience of users. With an almost nonexistent learning curve for current Hadoop users, the following tutorial serves as a way to streamline the initial setup of H2O on Hortonwork's Sandbox.
+
+### Quick Start Video Tutorial
+
+
+[![H2O Quick Start on Hadoop](http://img.youtube.com/vi/B1ax_k_sSoY/0.jpg)](https://www.youtube.com/watch?v=B1ax_k_sSoY&t=1s "H2O Quick Start on Hadoop")
 
 ### Prerequisites:
 
@@ -34,10 +39,10 @@ sudo -u hdfs hadoop fs -mkdir /user/root
 sudo -u hdfs hadoop fs -chown root:root /user/root
 ```
 
-Download the correction version of H2O driver jar file which is versioned for Hortonworks distributions. For example for HDP v2.3.2 please grab the hdp2.3 driver. The following an example of downloading release Tibshirani-11 for HDP 2.3 :
+Download the correction version of H2O driver jar file which is versioned for Hortonworks distributions. For example for HDP v2.5.x please grab the hdp2.5 driver. The following an example of downloading release Tutte-2 for HDP 2.5.x :
 
 ```
-wget http://h2o-release.s3.amazonaws.com/h2o/rel-tibshirani/11/h2o-3.6.0.11-hdp2.3.zip
+wget http://h2o-release.s3.amazonaws.com/h2o/rel-tutte/2/h2o-3.10.2.2-hdp2.5.zip
 ```
 
 ### Step 2 - Launch H2O
